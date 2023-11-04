@@ -39,7 +39,7 @@ while (true)
 
             break;
         case "4":
-            Console.WriteLine("Name search phrase");
+            Console.WriteLine("Name search phrase:");
             var searchPhrase = Console.ReadLine();
             phoneBook.DisplayMatchingContacts(searchPhrase);
 
