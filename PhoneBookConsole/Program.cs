@@ -29,9 +29,9 @@ while (true)
 
             break;
         case "2":
-            Console.WriteLine("Search for contact by number");
-            var contactNo = Console.ReadLine();
-            phoneBook.DisplayContact(contactNo);
+            Console.WriteLine("Contact number to search: ");
+            var searchNumber = Console.ReadLine();
+            phoneBook.DisplayContact(searchNumber);
 
             break;
         case "3":
@@ -39,9 +39,9 @@ while (true)
 
             break;
         case "4":
-            Console.WriteLine("Search for contact by name");
-            var contactName = Console.ReadLine();
-            phoneBook.DisplayMatchingContacts(contactName);
+            Console.WriteLine("Name search phrase");
+            var searchPhrase = Console.ReadLine();
+            phoneBook.DisplayMatchingContacts(searchPhrase);
 
             break;
         case "x":
