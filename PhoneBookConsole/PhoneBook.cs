@@ -50,5 +50,6 @@ namespace PhoneBookConsole
             var matchingContacts = _contacts.Where(c => c.Name.Contains(searchPhrase)).ToList();
             DisplayContactsDetails(matchingContacts);
         }
+
     }
 }
